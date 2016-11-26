@@ -9,7 +9,7 @@ Chinese = input("Please enter what you need to translate: ")
 
 url = 'http://fanyi.youdao.com/...'                            # Youdao translation page copy url
 
-data = {'type': 'AUTO', 'i': content, 'doctype': 'json', 'xmlVersion': '1.8', 
+data = {'type': 'AUTO', 'i': Chinese, 'doctype': 'json', 'xmlVersion': '1.8', 
         'keyfrom': 'fanyi.web', 'ue': 'UTF-8', 'action': 'FY_BY_CLICKBUTTON', 'typoResult': 'true'}
         # analog data
 
