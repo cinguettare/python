@@ -18,6 +18,6 @@ data = urllib.parse.urlencode(data).encode('utf-8')            # Analysis, Chang
 response = urllib.request.urlopen(url, data)                   
 html = response.read().decode('utf-8')                         # Conversion encoding
 
-target = json.loads(html)                                      # Use json to convert a str to a dict
+target = json.loads(html)                                      # Use json to convert str to dict
 
 print("English：%s" %target['translateResult'][0][0]['tgt'])   
