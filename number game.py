@@ -2,9 +2,6 @@ import easygui as g
 import sys
 import random
 
-
-num = random.randint(1, 10)
-
 def choice():
     msg = "Do you want to start the game again?"
     title = "please choose"
@@ -17,7 +14,9 @@ def choice():
 
 
 def game():
+    
     times = 3
+    num = random.randint(1, 10)
     
     while 1:
 
