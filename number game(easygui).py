@@ -11,8 +11,6 @@ def choice():
     else:
         sys.exit(0)
         
-
-
 def game():
     
     times = 3
