@@ -1,2 +1,2 @@
 # python
-一些python的小练习
+Some python little exercises
