@@ -4,6 +4,7 @@
 import math
 import easygui as g
 
+# Detection of prime 
 def is_Prime(number):
     if number > 1:
         if number == 2:
@@ -19,13 +20,13 @@ def is_Prime(number):
 def get_Primes(number):
     while True:
         if is_Prime(number):
-            yield number
+            yield number             # Use the characteristics of the generator to calculate
         number += 1
 
 def count_Primes():
     total = 2
     number = int(g.enterbox("Please enter the number of prime ranges to be calculated:", "Calculation of primes"))
-    for prime in get_Primes(3):
+    for prime in get_Primes(3):      # 
         if prime < number:
             total += prime
         else:
@@ -36,4 +37,4 @@ def count_Primes():
 if __name__ == '__main__':
     count_Primes()
     
-#鼓捣半天还是对生成器一知半解的..    注释以后补上..
+
