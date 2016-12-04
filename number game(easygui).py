@@ -1,5 +1,4 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
+#!/usr/bin/python3
 
 import easygui as g
 import sys
