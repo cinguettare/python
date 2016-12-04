@@ -1,5 +1,4 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
+#!/usr/bin/python3
 
 import json              # Load json
 import urllib.parse      # Load urllib.parse module
