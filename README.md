@@ -1,2 +1,5 @@
 # python
-Some python little exercises
+
+
+
+写的一些python小东西~
