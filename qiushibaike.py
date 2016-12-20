@@ -53,13 +53,11 @@ class qsbk:
                 self.enable = False
                 return
             print("第%d页\t%s" % (page, story))
-    
+    # 主程序
     def start(self):
         print("正在读取糗事百科，按回车查看新段子，Q退出")
-
         self.enable = True
         self.loadPage()
-
         nowPage = 0
         while self.enable:
             if len(self.stories) > 0:
