@@ -5,7 +5,7 @@
 
 [猜数字](https://github.com/cinguettare/python/blob/master/number%20game(easygui).py)
 
-[糗事百科]()
+[糗事百科](https://github.com/cinguettare/python/blob/master/qiushibaike.py)
 
 [计算素数](https://github.com/cinguettare/python/blob/master/calculation%20of%20prime.py)
 
